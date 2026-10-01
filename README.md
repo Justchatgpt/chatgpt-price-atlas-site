@@ -6,7 +6,7 @@ Public static website artifacts and public market-data snapshots. The applicatio
 
 ## Update data
 
-Repository maintainers: open Actions → Publish Pages → Run workflow.
+An hourly check runs at minute 17 (UTC). Only changed prices, rates or availability cause a commit and deployment. Collection timestamps alone are ignored. Maintainers can also use Actions → Publish Pages → Run workflow.
 Choose rates to refresh FX/USDT, all to also collect Apple prices, or deploy-only to publish existing files.
 Visitors can read cached prices; no credentials are embedded in the website.
 

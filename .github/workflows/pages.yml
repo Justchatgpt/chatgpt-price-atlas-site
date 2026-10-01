@@ -3,6 +3,8 @@ name: Publish Pages
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       update_scope:
@@ -13,39 +15,63 @@ on:
         options: [rates, all, deploy-only]
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  publish:
+  check:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.update.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check public price snapshots
+        id: update
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.update_scope != 'deploy-only')
+        env:
+          UPDATE_SCOPE: ${{ github.event_name == 'schedule' && 'all' || inputs.update_scope }}
+        run: python3 scripts/pages_update.py --data-dir data --scope "$UPDATE_SCOPE"
+      - name: Save changed snapshots
+        if: steps.update.outputs.changed == 'true'
+        run: |
+          git add data/prices.json data/exchange-rates.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: update changed public price snapshots'
+            git push origin HEAD:main
+          fi
+      - name: Report unchanged data
+        if: steps.update.outputs.changed == 'false'
+        run: echo 'No price, rate or availability changes. Commit and deployment skipped.' >> "$GITHUB_STEP_SUMMARY"
+
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || inputs.update_scope == 'deploy-only' || needs.check.outputs.changed == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
+      - name: Checkout checked data
         uses: actions/checkout@v4
-      - name: Update public price snapshots
-        if: github.event_name == 'workflow_dispatch' && inputs.update_scope != 'deploy-only'
-        env:
-          UPDATE_SCOPE: ${{ inputs.update_scope }}
-        run: python3 scripts/pages_update.py --data-dir data --scope "$UPDATE_SCOPE"
-      - name: Save updated snapshots
-        if: github.event_name == 'workflow_dispatch' && inputs.update_scope != 'deploy-only'
-        run: |
-          if ! git diff --quiet -- data; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data/prices.json data/exchange-rates.json
-            git commit -m 'chore: update public price snapshots'
-            git push origin HEAD:main
-          fi
+        with:
+          ref: main
       - name: Prepare public-only site files
         run: python3 scripts/pages_update.py --prepare-site
       - name: Configure Pages

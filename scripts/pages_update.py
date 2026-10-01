@@ -3,14 +3,68 @@ import argparse
 from datetime import datetime, timezone
 import json
 import math
+import os
 from pathlib import Path
 import shutil
+import tempfile
 from live_rates import collect
 import sync_prices
 
 
 def stamp():
     return datetime.now(timezone.utc).isoformat()
+
+
+OBSERVATION_TIMES = frozenset({'scanStartedAt', 'generatedAt', 'checkedAt',
+    'priceObservedAt', 'fetchedAt', 'quotedAt', 'savedAt'})
+
+
+def content_signature(value):
+    """Compare business data, not collection timestamps or incidental ordering."""
+    if isinstance(value, dict):
+        return {key: content_signature(item) for key, item in sorted(value.items())
+                if key not in OBSERVATION_TIMES}
+    if isinstance(value, list):
+        items = [content_signature(item) for item in value]
+        if items and all(isinstance(item, dict) for item in items):
+            for key in ('code', 'key'):
+                if all(key in item for item in items):
+                    return sorted(items, key=lambda item: item[key])
+        if all(isinstance(item, str) for item in items):
+            return sorted(items)
+        return items
+    return value
+
+
+def write_if_changed(target, payload):
+    target = Path(target)
+    if target.exists():
+        previous = json.loads(target.read_text(encoding='utf-8'))
+        if content_signature(previous) == content_signature(payload):
+            return False
+    target.parent.mkdir(parents=True, exist_ok=True)
+    temporary = target.with_suffix('.tmp')
+    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temporary.replace(target)
+    return True
+
+
+def update_prices(data_dir):
+    target = data_dir / 'prices.json'
+    data_dir.mkdir(parents=True, exist_ok=True)
+    original_output = sync_prices.OUTPUT
+    try:
+        # Scan into a candidate file so unchanged observations cannot alter the live file.
+        with tempfile.TemporaryDirectory(prefix='.price-scan-', dir=data_dir) as temporary:
+            candidate = Path(temporary) / 'prices.json'
+            if target.exists():
+                shutil.copyfile(target, candidate)
+            sync_prices.OUTPUT = candidate
+            sync_prices.sync(5)
+            result = json.loads(candidate.read_text(encoding='utf-8'))
+            return write_if_changed(target, result)
+    finally:
+        sync_prices.OUTPUT = original_output
 
 
 def valid_quote(value):
@@ -61,10 +115,9 @@ def update_rates(data_dir):
     previous = json.loads(target.read_text(encoding='utf-8')) if target.exists() else {}
     codes = {country['currency'] for country in prices['countries'] if country.get('currency')}
     result = merge_rates(previous, collect(codes), stamp())
-    temporary = target.with_suffix('.tmp')
-    temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    temporary.replace(target)
-    print('Published quote currencies:', len(result['rates']), '; retained:', ', '.join(result['cache']['retained']) or 'none')
+    changed = write_if_changed(target, result)
+    print('Quotes changed:', changed, '; currencies:', len(result['rates']), '; retained:', ', '.join(result['cache']['retained']) or 'none')
+    return changed
 
 
 def prepare_site(root):
@@ -87,7 +140,10 @@ if __name__ == '__main__':
     if args.prepare_site:
         prepare_site(Path.cwd())
     else:
-        if args.scope == 'all':
-            sync_prices.OUTPUT = args.data_dir / 'prices.json'
-            sync_prices.sync(5)
-        update_rates(args.data_dir)
+        prices_changed = update_prices(args.data_dir) if args.scope == 'all' else False
+        rates_changed = update_rates(args.data_dir)
+        changed = prices_changed or rates_changed
+        print('Data changed:', str(changed).lower())
+        if os.environ.get('GITHUB_OUTPUT'):
+            with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+                output.write('changed=' + str(changed).lower() + '\n')
