@@ -30,6 +30,9 @@ jobs:
       contents: write
     outputs:
       changed: ${{ steps.update.outputs.changed }}
+      degraded: ${{ steps.update.outputs.degraded }}
+      apple_status: ${{ steps.update.outputs.apple_status }}
+      rates_status: ${{ steps.update.outputs.rates_status }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -53,7 +56,7 @@ jobs:
           fi
       - name: Report unchanged data
         if: steps.update.outputs.changed == 'false'
-        run: echo 'No price, rate or availability changes. Commit and deployment skipped.' >> "$GITHUB_STEP_SUMMARY"
+        run: echo 'No changed snapshots were written. Commit and deployment skipped; see source status above.' >> "$GITHUB_STEP_SUMMARY"
 
   deploy:
     needs: check

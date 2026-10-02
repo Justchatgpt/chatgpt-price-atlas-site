@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import shutil
 import tempfile
+from urllib.error import URLError
 from live_rates import collect
 import sync_prices
 
@@ -71,7 +72,7 @@ def valid_quote(value):
     try:
         datetime.fromisoformat(value['quotedAt'].replace('Z', '+00:00'))
         return math.isfinite(value['rate']) and value['rate'] > 0
-    except (KeyError, TypeError, ValueError):
+    except (KeyError, TypeError, ValueError, AttributeError):
         return False
 
 
@@ -120,6 +121,63 @@ def update_rates(data_dir):
     return changed
 
 
+def usable_cache(path, source):
+    try:
+        value = json.loads(path.read_text(encoding='utf-8'))
+        if source == 'apple':
+            return value.get('schemaVersion') == 1 and any(
+                isinstance(country.get('currency'), str) and any(
+                    isinstance(item.get('amount'), (int, float)) and item['amount'] > 0
+                    for item in country.get('purchases', []))
+                for country in value.get('countries', []))
+        return value.get('base') == 'USD' and (
+            any(valid_quote(quote) for quote in value.get('quotes', {}).values())
+            or valid_quote(value.get('usdtQuote')))
+    except (OSError, ValueError, TypeError, AttributeError):
+        return False
+
+
+def run_updates(data_dir, scope):
+    """Keep independent source failures from discarding successful updates."""
+    sources = [('apple', update_prices, 'prices.json')] if scope == 'all' else []
+    sources.append(('rates', update_rates, 'exchange-rates.json'))
+    result = {'changed': False, 'degraded': False, 'failed': False, 'sources': {}}
+    for source, updater, filename in sources:
+        try:
+            changed = updater(data_dir)
+            result['changed'] |= changed
+            result['sources'][source] = {'status': 'changed' if changed else 'unchanged'}
+        except (URLError, TimeoutError, ConnectionError, RuntimeError, ValueError) as error:
+            retained = usable_cache(data_dir / filename, source)
+            detail = str(error).splitlines()
+            message = (type(error).__name__ + (': ' + detail[0] if detail else ''))[:250]
+            result['sources'][source] = {'status': 'retained' if retained else 'failed', 'reason': message}
+            result['degraded'] = True
+            result['failed'] |= not retained
+            escaped = message.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+            print('::warning title=' + source + ' update::' + escaped + ('; previous snapshot retained' if retained else '; no usable cache'))
+    # No upstream source succeeded: keep monitoring red, rather than pretending an update succeeded.
+    result['failed'] |= all(item['status'] in ('retained', 'failed') for item in result['sources'].values())
+    return result
+
+
+def report_update(result):
+    outputs = {'changed': str(result['changed']).lower(), 'degraded': str(result['degraded']).lower()}
+    outputs.update({source + '_status': item['status'] for source, item in result['sources'].items()})
+    print('Data check:', json.dumps(outputs))
+    if os.environ.get('GITHUB_OUTPUT'):
+        with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+            for key, value in outputs.items():
+                output.write(key + '=' + value + '\n')
+    if os.environ.get('GITHUB_STEP_SUMMARY'):
+        with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+            summary.write('## Price snapshot check\n\n| Source | Status |\n| --- | --- |\n')
+            for source, item in result['sources'].items():
+                summary.write('| ' + source + ' | ' + item['status'] + ' |\n')
+            summary.write('\nChanged files: ' + outputs['changed'] + '. Degraded: ' + outputs['degraded'] + '.\n')
+            summary.write('retained means collection failed and the previous file was kept unchanged.\n')
+
+
 def prepare_site(root):
     destination = root / '_site'
     destination.mkdir(exist_ok=True)
@@ -140,10 +198,7 @@ if __name__ == '__main__':
     if args.prepare_site:
         prepare_site(Path.cwd())
     else:
-        prices_changed = update_prices(args.data_dir) if args.scope == 'all' else False
-        rates_changed = update_rates(args.data_dir)
-        changed = prices_changed or rates_changed
-        print('Data changed:', str(changed).lower())
-        if os.environ.get('GITHUB_OUTPUT'):
-            with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
-                output.write('changed=' + str(changed).lower() + '\n')
+        outcome = run_updates(args.data_dir, args.scope)
+        report_update(outcome)
+        if outcome['failed']:
+            raise SystemExit('Requested data sources failed; usable previous snapshots were preserved')

@@ -99,7 +99,12 @@ def parse_purchases(page, code):
     if not match:
         raise ValueError('Apple page data missing')
     payload = json.loads(match.group(1))
-    intent = payload['data'][0]['intent']
+    data = payload.get('data') if isinstance(payload, dict) else None
+    if not isinstance(data, list) or not data or not isinstance(data[0], dict):
+        raise ValueError('Apple page data structure changed')
+    intent = data[0].get('intent')
+    if not isinstance(intent, dict):
+        raise ValueError('Apple page intent missing')
     if intent.get('storefront') != code or intent.get('id') != '6448311069':
         raise ValueError('Unexpected Apple storefront redirect')
     currency_match = re.search(r'"priceCurrency"\s*:\s*"([A-Z]{3})"', page)
@@ -107,11 +112,27 @@ def parse_purchases(page, code):
         raise ValueError('Apple currency missing')
     currency = currency_match.group(1)
     pairs = []
-    for node in walk(payload):
-        for pair in node.get('textPairs', []):
-            if isinstance(pair, list) and len(pair) == 2 and re.search(r'ChatGPT|Credits', pair[0], re.I):
-                if pair not in pairs:
-                    pairs.append(pair)
+    def add_pair(name, label):
+        if isinstance(name, str) and isinstance(label, str) and re.match(r'^(?:ChatGPT\b|[\d,]+\s+Credits\b)', name, re.I):
+            pair = [name, label]
+            if pair not in pairs:
+                pairs.append(pair)
+
+    nodes = list(walk(payload))
+    sections = [node for node in nodes if node.get('$kind') == 'Annotation' and node.get('title') == 'In-App Purchases']
+    # Older Apple pages nest textPairs; current pages use individual textPair items.
+    # Scope the new format to the actual IAP annotation, not reviews or recommendations.
+    for node in (child for section in sections for child in walk(section)) if sections else nodes:
+        legacy_pairs = node.get('textPairs', [])
+        if not isinstance(legacy_pairs, list):
+            raise ValueError('Apple textPairs structure changed')
+        for pair in legacy_pairs:
+            if isinstance(pair, list) and len(pair) == 2:
+                add_pair(*pair)
+        if sections and node.get('$kind') == 'textPair':
+            add_pair(node.get('leadingText'), node.get('trailingText'))
+    if sections and not pairs and any(section.get('summary') == 'Yes' for section in sections):
+        raise ValueError('Apple lists in-app purchases but their price format was not recognized')
     items = [{'name': name, 'amount': price_number(label, currency), 'displayPrice': label, 'period': None} for name, label in pairs]
     for item in items:
         same_name = sorted((p for p in items if p['name'] == item['name']), key=lambda p: p['amount'])
@@ -148,6 +169,9 @@ def sync(workers):
     previous_countries = {c['code']: c for c in previous.get('countries', [])}
     page = fetch(APP_URL.format(code='us'))
     countries = storefronts(page)
+    _, sample_purchases = parse_purchases(page, 'us')
+    if not sample_purchases:
+        raise RuntimeError('US storefront has no recognized IAP prices; previous snapshot preserved')
     results = []
     print(f'Scanning {len(countries)} Apple storefronts, {workers} workers...', flush=True)
     with ThreadPoolExecutor(max_workers=workers) as executor:
