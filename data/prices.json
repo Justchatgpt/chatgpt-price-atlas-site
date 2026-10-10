@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "appId": "6448311069",
   "appName": "ChatGPT",
-  "scanStartedAt": "2026-10-10T18:38:34.815840+00:00",
-  "generatedAt": "2026-10-10T18:39:16.294447+00:00",
+  "scanStartedAt": "2026-10-10T22:35:38.988298+00:00",
+  "generatedAt": "2026-10-10T22:36:18.010101+00:00",
   "scope": {
     "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069?l=en-GB",
     "storefrontCount": 175,
@@ -15,7 +15,7 @@
       "name": "United Arab Emirates",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ae/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:46.583980+00:00",
+      "checkedAt": "2026-10-10T22:35:50.721907+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -80,14 +80,14 @@
       ],
       "currency": "AED",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:47.424190+00:00"
+      "priceObservedAt": "2026-10-10T22:35:51.786463+00:00"
     },
     {
       "code": "af",
       "name": "Afghanistan",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/af/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:47.619965+00:00",
+      "checkedAt": "2026-10-10T22:35:51.933979+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -152,14 +152,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:48.479890+00:00"
+      "priceObservedAt": "2026-10-10T22:35:53.184106+00:00"
     },
     {
       "code": "ag",
       "name": "Antigua and Barbuda",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ag/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:09.006998+00:00",
+      "checkedAt": "2026-10-10T22:36:09.509522+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -224,14 +224,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:09.791322+00:00"
+      "priceObservedAt": "2026-10-10T22:36:10.324743+00:00"
     },
     {
       "code": "ai",
       "name": "Anguilla",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ai/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:08.892669+00:00",
+      "checkedAt": "2026-10-10T22:36:09.096805+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -296,88 +296,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:10.473076+00:00"
+      "priceObservedAt": "2026-10-10T22:36:10.223525+00:00"
     },
     {
       "code": "al",
       "name": "Albania",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/al/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:54.156416+00:00",
-      "purchases": [
-        {
-          "name": "ChatGPT Pro 500",
-          "amount": 599.99,
-          "displayPrice": "USD 599.99",
-          "period": null,
-          "key": "chatgpt-pro-500-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
-          "name": "ChatGPT Pro 200",
-          "amount": 250.0,
-          "displayPrice": "USD 250.00",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
-          "name": "ChatGPT Plus",
-          "amount": 250.0,
-          "displayPrice": "USD 250.00",
-          "period": null,
-          "key": "chatgpt-plus-2",
-          "ordinal": 2,
-          "sameNameCount": 2,
-          "family": "subscription"
-        },
-        {
-          "name": "ChatGPT Pro 100",
-          "amount": 119.99,
-          "displayPrice": "USD 119.99",
-          "period": null,
-          "key": "chatgpt-pro-100-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
-          "name": "ChatGPT Plus",
-          "amount": 22.99,
-          "displayPrice": "USD 22.99",
-          "period": null,
-          "key": "chatgpt-plus-1",
-          "ordinal": 1,
-          "sameNameCount": 2,
-          "family": "subscription"
-        },
-        {
-          "name": "ChatGPT Go",
-          "amount": 6.99,
-          "displayPrice": "USD 6.99",
-          "period": null,
-          "key": "chatgpt-go-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        }
-      ],
-      "status": "stale",
-      "httpStatus": 429,
-      "error": "HTTP 429",
-      "currency": "USD",
-      "priceObservedAt": "2026-10-10T07:11:49.801120+00:00"
-    },
-    {
-      "code": "am",
-      "name": "Armenia",
-      "region": "Europe",
-      "sourceUrl": "https://apps.apple.com/am/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:36.902644+00:00",
+      "checkedAt": "2026-10-10T22:35:59.303202+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -442,14 +368,86 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:38.300147+00:00"
+      "priceObservedAt": "2026-10-10T22:36:00.761242+00:00"
+    },
+    {
+      "code": "am",
+      "name": "Armenia",
+      "region": "Europe",
+      "sourceUrl": "https://apps.apple.com/am/app/chatgpt/id6448311069?l=en-GB",
+      "checkedAt": "2026-10-10T22:35:40.177450+00:00",
+      "purchases": [
+        {
+          "name": "ChatGPT Pro 500",
+          "amount": 599.99,
+          "displayPrice": "USD 599.99",
+          "period": null,
+          "key": "chatgpt-pro-500-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 250.0,
+          "displayPrice": "USD 250.00",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Plus",
+          "amount": 250.0,
+          "displayPrice": "USD 250.00",
+          "period": null,
+          "key": "chatgpt-plus-2",
+          "ordinal": 2,
+          "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 100",
+          "amount": 119.99,
+          "displayPrice": "USD 119.99",
+          "period": null,
+          "key": "chatgpt-pro-100-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Plus",
+          "amount": 22.99,
+          "displayPrice": "USD 22.99",
+          "period": null,
+          "key": "chatgpt-plus-1",
+          "ordinal": 1,
+          "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Go",
+          "amount": 6.99,
+          "displayPrice": "USD 6.99",
+          "period": null,
+          "key": "chatgpt-go-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
+          "family": "subscription"
+        }
+      ],
+      "currency": "USD",
+      "status": "available",
+      "priceObservedAt": "2026-10-10T22:35:41.619326+00:00"
     },
     {
       "code": "ao",
       "name": "Angola",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ao/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:36.902343+00:00",
+      "checkedAt": "2026-10-10T22:35:40.177064+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -514,14 +512,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:37.677332+00:00"
+      "priceObservedAt": "2026-10-10T22:35:41.208575+00:00"
     },
     {
       "code": "ar",
       "name": "Argentina (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ar/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:09.221061+00:00",
+      "checkedAt": "2026-10-10T22:36:09.876598+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -586,14 +584,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:09.644536+00:00"
+      "priceObservedAt": "2026-10-10T22:36:10.542430+00:00"
     },
     {
       "code": "at",
       "name": "Österreich",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/at/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:54.278891+00:00",
+      "checkedAt": "2026-10-10T22:35:59.317518+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -658,14 +656,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:54.927697+00:00"
+      "priceObservedAt": "2026-10-10T22:36:00.148830+00:00"
     },
     {
       "code": "au",
       "name": "Australia",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/au/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:48.177127+00:00",
+      "checkedAt": "2026-10-10T22:35:52.525229+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -730,14 +728,14 @@
       ],
       "currency": "AUD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:49.486129+00:00"
+      "priceObservedAt": "2026-10-10T22:35:54.122632+00:00"
     },
     {
       "code": "az",
       "name": "Azerbaijan",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/az/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:36.902933+00:00",
+      "checkedAt": "2026-10-10T22:35:40.177721+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -802,14 +800,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:38.054146+00:00"
+      "priceObservedAt": "2026-10-10T22:35:41.538205+00:00"
     },
     {
       "code": "ba",
       "name": "Bosnia and Herzegovina",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ba/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:54.713966+00:00",
+      "checkedAt": "2026-10-10T22:36:00.057927+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -874,14 +872,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:01.363137+00:00"
+      "priceObservedAt": "2026-10-10T22:36:01.316529+00:00"
     },
     {
       "code": "bb",
       "name": "Barbados",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/bb/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:09.791372+00:00",
+      "checkedAt": "2026-10-10T22:36:10.223558+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -946,14 +944,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:10.661542+00:00"
+      "priceObservedAt": "2026-10-10T22:36:11.339820+00:00"
     },
     {
       "code": "be",
       "name": "Belgium",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/be/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:54.696633+00:00",
+      "checkedAt": "2026-10-10T22:36:00.044886+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1016,18 +1014,16 @@
           "family": "subscription"
         }
       ],
-      "status": "stale",
-      "httpStatus": 429,
-      "error": "HTTP 429",
       "currency": "EUR",
-      "priceObservedAt": "2026-10-10T07:11:49.891566+00:00"
+      "status": "available",
+      "priceObservedAt": "2026-10-10T22:36:01.397417+00:00"
     },
     {
       "code": "bf",
       "name": "Burkina Faso",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/bf/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:37.901470+00:00",
+      "checkedAt": "2026-10-10T22:35:41.313982+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1092,14 +1088,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:38.622621+00:00"
+      "priceObservedAt": "2026-10-10T22:35:42.560889+00:00"
     },
     {
       "code": "bg",
       "name": "Bulgaria",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/bg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:54.927757+00:00",
+      "checkedAt": "2026-10-10T22:36:00.148877+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1162,18 +1158,16 @@
           "family": "subscription"
         }
       ],
-      "status": "stale",
-      "httpStatus": 429,
-      "error": "HTTP 429",
       "currency": "EUR",
-      "priceObservedAt": "2026-10-10T07:11:50.048251+00:00"
+      "status": "available",
+      "priceObservedAt": "2026-10-10T22:36:01.914854+00:00"
     },
     {
       "code": "bh",
       "name": "Bahrain",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/bh/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:36.903271+00:00",
+      "checkedAt": "2026-10-10T22:35:40.178233+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1238,14 +1232,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:37.901225+00:00"
+      "priceObservedAt": "2026-10-10T22:35:41.291157+00:00"
     },
     {
       "code": "bj",
       "name": "Benin",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/bj/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:37.591966+00:00",
+      "checkedAt": "2026-10-10T22:35:41.208702+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1310,14 +1304,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:38.425245+00:00"
+      "priceObservedAt": "2026-10-10T22:35:42.139873+00:00"
     },
     {
       "code": "bm",
       "name": "Bermuda",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/bm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:10.437149+00:00",
+      "checkedAt": "2026-10-10T22:36:10.400145+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1382,14 +1376,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:11.287794+00:00"
+      "priceObservedAt": "2026-10-10T22:36:11.319895+00:00"
     },
     {
       "code": "bn",
       "name": "Brunei Darussalam",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/bn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:48.437632+00:00",
+      "checkedAt": "2026-10-10T22:35:52.711496+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1454,14 +1448,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:49.530340+00:00"
+      "priceObservedAt": "2026-10-10T22:35:53.838895+00:00"
     },
     {
       "code": "bo",
       "name": "Bolivia (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/bo/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:10.473153+00:00",
+      "checkedAt": "2026-10-10T22:36:10.542477+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1526,14 +1520,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:11.597416+00:00"
+      "priceObservedAt": "2026-10-10T22:36:11.229812+00:00"
     },
     {
       "code": "br",
       "name": "Brasil",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/br/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:10.661593+00:00",
+      "checkedAt": "2026-10-10T22:36:11.229864+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1598,14 +1592,14 @@
       ],
       "currency": "BRL",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:10.997433+00:00"
+      "priceObservedAt": "2026-10-10T22:36:11.713737+00:00"
     },
     {
       "code": "bs",
       "name": "Bahamas",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/bs/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:09.644587+00:00",
+      "checkedAt": "2026-10-10T22:36:10.210798+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1670,14 +1664,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:10.738516+00:00"
+      "priceObservedAt": "2026-10-10T22:36:11.355040+00:00"
     },
     {
       "code": "bt",
       "name": "Bhutan",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/bt/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:48.217860+00:00",
+      "checkedAt": "2026-10-10T22:35:52.672183+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1742,14 +1736,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:48.965901+00:00"
+      "priceObservedAt": "2026-10-10T22:35:53.590961+00:00"
     },
     {
       "code": "bw",
       "name": "Botswana",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/bw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:37.677386+00:00",
+      "checkedAt": "2026-10-10T22:35:41.291303+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1814,25 +1808,25 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:38.801155+00:00"
+      "priceObservedAt": "2026-10-10T22:35:42.393581+00:00"
     },
     {
       "code": "by",
       "name": "Belarus",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/by/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:54.568990+00:00",
+      "checkedAt": "2026-10-10T22:35:59.813894+00:00",
       "purchases": [],
-      "status": "error",
-      "httpStatus": 429,
-      "error": "HTTP 429"
+      "status": "unavailable",
+      "httpStatus": 404,
+      "error": "HTTP 404"
     },
     {
       "code": "bz",
       "name": "Belize",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/bz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:09.863138+00:00",
+      "checkedAt": "2026-10-10T22:36:10.324790+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1897,14 +1891,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:10.909059+00:00"
+      "priceObservedAt": "2026-10-10T22:36:14.217076+00:00"
     },
     {
       "code": "ca",
       "name": "Canada (English)",
       "region": "The United States and Canada",
       "sourceUrl": "https://apps.apple.com/ca/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:14.861646+00:00",
+      "checkedAt": "2026-10-10T22:36:16.474914+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -1969,14 +1963,14 @@
       ],
       "currency": "CAD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:16.293054+00:00"
+      "priceObservedAt": "2026-10-10T22:36:18.009572+00:00"
     },
     {
       "code": "cd",
       "name": "Congo, The Democratic Republic Of The",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/cd/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:38.622670+00:00",
+      "checkedAt": "2026-10-10T22:35:42.489190+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2041,14 +2035,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:39.508451+00:00"
+      "priceObservedAt": "2026-10-10T22:35:43.742850+00:00"
     },
     {
       "code": "cg",
       "name": "Congo, Republic of",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/cg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:44.094242+00:00",
+      "checkedAt": "2026-10-10T22:35:48.445246+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2113,14 +2107,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:45.489287+00:00"
+      "priceObservedAt": "2026-10-10T22:35:49.568384+00:00"
     },
     {
       "code": "ch",
       "name": "Schweiz",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ch/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:08.023513+00:00",
+      "checkedAt": "2026-10-10T22:36:08.581600+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2185,14 +2179,14 @@
       ],
       "currency": "CHF",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:08.763786+00:00"
+      "priceObservedAt": "2026-10-10T22:36:09.509467+00:00"
     },
     {
       "code": "ci",
       "name": "Côte d’Ivoire",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ci/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:38.517525+00:00",
+      "checkedAt": "2026-10-10T22:35:42.393628+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2257,14 +2251,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:39.052719+00:00"
+      "priceObservedAt": "2026-10-10T22:35:43.102521+00:00"
     },
     {
       "code": "cl",
       "name": "Chile (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/cl/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:10.997485+00:00",
+      "checkedAt": "2026-10-10T22:36:11.355077+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2329,14 +2323,14 @@
       ],
       "currency": "CLP",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:11.477222+00:00"
+      "priceObservedAt": "2026-10-10T22:36:12.151799+00:00"
     },
     {
       "code": "cm",
       "name": "Cameroun",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/cm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:38.054423+00:00",
+      "checkedAt": "2026-10-10T22:35:41.538350+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2401,14 +2395,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:38.517472+00:00"
+      "priceObservedAt": "2026-10-10T22:35:42.489141+00:00"
     },
     {
       "code": "cn",
       "name": "中国大陆",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/cn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:48.647646+00:00",
+      "checkedAt": "2026-10-10T22:35:53.184150+00:00",
       "purchases": [],
       "status": "unavailable",
       "httpStatus": 404,
@@ -2419,7 +2413,7 @@
       "name": "Colombia (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/co/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:11.287851+00:00",
+      "checkedAt": "2026-10-10T22:36:11.713784+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2484,14 +2478,14 @@
       ],
       "currency": "COP",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:11.795814+00:00"
+      "priceObservedAt": "2026-10-10T22:36:12.368604+00:00"
     },
     {
       "code": "cr",
       "name": "Costa Rica (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/cr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:11.477278+00:00",
+      "checkedAt": "2026-10-10T22:36:12.151849+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2556,14 +2550,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.084685+00:00"
+      "priceObservedAt": "2026-10-10T22:36:12.878908+00:00"
     },
     {
       "code": "cv",
       "name": "Cape Verde",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/cv/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:38.300440+00:00",
+      "checkedAt": "2026-10-10T22:35:41.619372+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2628,14 +2622,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:39.189134+00:00"
+      "priceObservedAt": "2026-10-10T22:35:42.510284+00:00"
     },
     {
       "code": "cy",
       "name": "Cyprus",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/cy/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:59.305894+00:00",
+      "checkedAt": "2026-10-10T22:36:00.761289+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2700,14 +2694,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:02.083126+00:00"
+      "priceObservedAt": "2026-10-10T22:36:02.040137+00:00"
     },
     {
       "code": "cz",
       "name": "Czechia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/cz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:59.864203+00:00",
+      "checkedAt": "2026-10-10T22:36:01.316574+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2772,14 +2766,14 @@
       ],
       "currency": "CZK",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:02.706433+00:00"
+      "priceObservedAt": "2026-10-10T22:36:02.642349+00:00"
     },
     {
       "code": "de",
       "name": "Deutschland",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/de/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:02.678219+00:00",
+      "checkedAt": "2026-10-10T22:36:02.740038+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2844,14 +2838,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:03.272008+00:00"
+      "priceObservedAt": "2026-10-10T22:36:03.660661+00:00"
     },
     {
       "code": "dk",
       "name": "Denmark",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/dk/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:59.881283+00:00",
+      "checkedAt": "2026-10-10T22:36:01.397467+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2916,14 +2910,14 @@
       ],
       "currency": "DKK",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:02.643321+00:00"
+      "priceObservedAt": "2026-10-10T22:36:02.739976+00:00"
     },
     {
       "code": "dm",
       "name": "Dominica",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/dm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:11.597475+00:00",
+      "checkedAt": "2026-10-10T22:36:12.248078+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -2988,14 +2982,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.514197+00:00"
+      "priceObservedAt": "2026-10-10T22:36:13.275214+00:00"
     },
     {
       "code": "do",
       "name": "República Dominicana",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/do/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:11.636237+00:00",
+      "checkedAt": "2026-10-10T22:36:12.368647+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3060,14 +3054,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.197363+00:00"
+      "priceObservedAt": "2026-10-10T22:36:13.047379+00:00"
     },
     {
       "code": "dz",
       "name": "Algeria",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/dz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:36.901963+00:00",
+      "checkedAt": "2026-10-10T22:35:40.176772+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3132,14 +3126,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:37.591718+00:00"
+      "priceObservedAt": "2026-10-10T22:35:41.313948+00:00"
     },
     {
       "code": "ec",
       "name": "Ecuador (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ec/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:11.795863+00:00",
+      "checkedAt": "2026-10-10T22:36:12.500812+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3204,14 +3198,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.394171+00:00"
+      "priceObservedAt": "2026-10-10T22:36:13.242046+00:00"
     },
     {
       "code": "ee",
       "name": "Estonia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ee/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:01.363197+00:00",
+      "checkedAt": "2026-10-10T22:36:01.472553+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3224,16 +3218,6 @@
           "family": "subscription"
         },
         {
-          "name": "ChatGPT Pro 200",
-          "amount": 229.0,
-          "displayPrice": "229,00 €",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
           "name": "ChatGPT Plus",
           "amount": 229.0,
           "displayPrice": "229,00 €",
@@ -3241,6 +3225,16 @@
           "key": "chatgpt-plus-2",
           "ordinal": 2,
           "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 229.0,
+          "displayPrice": "229,00 €",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
           "family": "subscription"
         },
         {
@@ -3276,14 +3270,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:02.678169+00:00"
+      "priceObservedAt": "2026-10-10T22:36:02.796983+00:00"
     },
     {
       "code": "eg",
       "name": "Egypt",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/eg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:38.801207+00:00",
+      "checkedAt": "2026-10-10T22:35:42.510316+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3348,14 +3342,14 @@
       ],
       "currency": "EGP",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:39.665572+00:00"
+      "priceObservedAt": "2026-10-10T22:35:43.608593+00:00"
     },
     {
       "code": "es",
       "name": "España",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/es/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:07.443383+00:00",
+      "checkedAt": "2026-10-10T22:36:07.796862+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3430,14 +3424,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:08.023464+00:00"
+      "priceObservedAt": "2026-10-10T22:36:08.581556+00:00"
     },
     {
       "code": "fi",
       "name": "Finland",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/fi/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:01.913528+00:00",
+      "checkedAt": "2026-10-10T22:36:01.914902+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3502,14 +3496,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:03.050911+00:00"
+      "priceObservedAt": "2026-10-10T22:36:03.169276+00:00"
     },
     {
       "code": "fj",
       "name": "Fiji",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/fj/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:48.899811+00:00",
+      "checkedAt": "2026-10-10T22:35:53.278698+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3574,14 +3568,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:49.726257+00:00"
+      "priceObservedAt": "2026-10-10T22:35:54.339730+00:00"
     },
     {
       "code": "fm",
       "name": "Micronesia, Federated States of",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/fm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:50.775317+00:00",
+      "checkedAt": "2026-10-10T22:35:55.609627+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3646,14 +3640,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:51.617959+00:00"
+      "priceObservedAt": "2026-10-10T22:35:56.799796+00:00"
     },
     {
       "code": "fr",
       "name": "France (Français)",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/fr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:02.083174+00:00",
+      "checkedAt": "2026-10-10T22:36:02.040190+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3718,14 +3712,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:02.761692+00:00"
+      "priceObservedAt": "2026-10-10T22:36:02.819362+00:00"
     },
     {
       "code": "ga",
       "name": "Gabon",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ga/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:39.189190+00:00",
+      "checkedAt": "2026-10-10T22:35:42.993085+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3790,14 +3784,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:39.696703+00:00"
+      "priceObservedAt": "2026-10-10T22:35:43.678809+00:00"
     },
     {
       "code": "gb",
       "name": "United Kingdom",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/gb/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:08.763839+00:00",
+      "checkedAt": "2026-10-10T22:36:09.015279+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3862,14 +3856,14 @@
       ],
       "currency": "GBP",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:10.437077+00:00"
+      "priceObservedAt": "2026-10-10T22:36:10.400093+00:00"
     },
     {
       "code": "gd",
       "name": "Grenada",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/gd/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.084745+00:00",
+      "checkedAt": "2026-10-10T22:36:13.047431+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -3934,14 +3928,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:13.003201+00:00"
+      "priceObservedAt": "2026-10-10T22:36:14.122047+00:00"
     },
     {
       "code": "ge",
       "name": "Georgia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ge/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:02.643391+00:00",
+      "checkedAt": "2026-10-10T22:36:02.642396+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4006,14 +4000,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:04.272225+00:00"
+      "priceObservedAt": "2026-10-10T22:36:03.879905+00:00"
     },
     {
       "code": "gh",
       "name": "Ghana",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/gh/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:39.508505+00:00",
+      "checkedAt": "2026-10-10T22:35:43.608646+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4078,14 +4072,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:40.506444+00:00"
+      "priceObservedAt": "2026-10-10T22:35:44.479477+00:00"
     },
     {
       "code": "gm",
       "name": "Gambia",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/gm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:39.468320+00:00",
+      "checkedAt": "2026-10-10T22:35:43.102572+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4150,14 +4144,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:40.252933+00:00"
+      "priceObservedAt": "2026-10-10T22:35:44.009282+00:00"
     },
     {
       "code": "gr",
       "name": "Greece",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/gr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:02.706490+00:00",
+      "checkedAt": "2026-10-10T22:36:02.797036+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4222,14 +4216,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:03.827655+00:00"
+      "priceObservedAt": "2026-10-10T22:36:04.075589+00:00"
     },
     {
       "code": "gt",
       "name": "Guatemala (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/gt/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.197412+00:00",
+      "checkedAt": "2026-10-10T22:36:13.242096+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4294,14 +4288,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.705835+00:00"
+      "priceObservedAt": "2026-10-10T22:36:13.964588+00:00"
     },
     {
       "code": "gw",
       "name": "Guinea-Bissau",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/gw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:39.665622+00:00",
+      "checkedAt": "2026-10-10T22:35:43.678853+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4314,16 +4308,6 @@
           "family": "subscription"
         },
         {
-          "name": "ChatGPT Pro 200",
-          "amount": 200.0,
-          "displayPrice": "USD 200.00",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
           "name": "ChatGPT Plus",
           "amount": 200.0,
           "displayPrice": "USD 200.00",
@@ -4331,6 +4315,16 @@
           "key": "chatgpt-plus-2",
           "ordinal": 2,
           "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 200.0,
+          "displayPrice": "USD 200.00",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
           "family": "subscription"
         },
         {
@@ -4366,14 +4360,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:40.754775+00:00"
+      "priceObservedAt": "2026-10-10T22:35:44.801941+00:00"
     },
     {
       "code": "gy",
       "name": "Guyana",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/gy/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.394228+00:00",
+      "checkedAt": "2026-10-10T22:36:13.275249+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4438,14 +4432,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:13.848785+00:00"
+      "priceObservedAt": "2026-10-10T22:36:14.432049+00:00"
     },
     {
       "code": "hk",
       "name": "香港",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/hk/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:48.965948+00:00",
+      "checkedAt": "2026-10-10T22:35:53.591011+00:00",
       "purchases": [],
       "status": "unavailable",
       "httpStatus": 404,
@@ -4456,7 +4450,7 @@
       "name": "Honduras (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/hn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.514243+00:00",
+      "checkedAt": "2026-10-10T22:36:13.591659+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4521,14 +4515,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.966547+00:00"
+      "priceObservedAt": "2026-10-10T22:36:14.247383+00:00"
     },
     {
       "code": "hr",
       "name": "Croatia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/hr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:59.225918+00:00",
+      "checkedAt": "2026-10-10T22:36:00.165932+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4593,14 +4587,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:01.913472+00:00"
+      "priceObservedAt": "2026-10-10T22:36:01.472504+00:00"
     },
     {
       "code": "hu",
       "name": "Hungary",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/hu/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:02.761749+00:00",
+      "checkedAt": "2026-10-10T22:36:02.819400+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4665,14 +4659,14 @@
       ],
       "currency": "HUF",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:03.808354+00:00"
+      "priceObservedAt": "2026-10-10T22:36:03.980539+00:00"
     },
     {
       "code": "id",
       "name": "Indonesia (English)",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/id/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:49.118899+00:00",
+      "checkedAt": "2026-10-10T22:35:53.704663+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4737,14 +4731,14 @@
       ],
       "currency": "IDR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:50.179262+00:00"
+      "priceObservedAt": "2026-10-10T22:35:54.754560+00:00"
     },
     {
       "code": "ie",
       "name": "Ireland",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ie/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:03.272068+00:00",
+      "checkedAt": "2026-10-10T22:36:03.660715+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4809,14 +4803,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:04.431124+00:00"
+      "priceObservedAt": "2026-10-10T22:36:04.914116+00:00"
     },
     {
       "code": "il",
       "name": "Israel",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/il/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:40.252992+00:00",
+      "checkedAt": "2026-10-10T22:35:44.009338+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4829,16 +4823,6 @@
           "family": "subscription"
         },
         {
-          "name": "ChatGPT Pro 200",
-          "amount": 699.9,
-          "displayPrice": "₪699.90",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
           "name": "ChatGPT Plus",
           "amount": 699.9,
           "displayPrice": "₪699.90",
@@ -4846,6 +4830,16 @@
           "key": "chatgpt-plus-2",
           "ordinal": 2,
           "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 699.9,
+          "displayPrice": "₪699.90",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
           "family": "subscription"
         },
         {
@@ -4881,14 +4875,14 @@
       ],
       "currency": "ILS",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:41.464217+00:00"
+      "priceObservedAt": "2026-10-10T22:35:45.505171+00:00"
     },
     {
       "code": "in",
       "name": "India",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/in/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:39.696753+00:00",
+      "checkedAt": "2026-10-10T22:35:43.728746+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -4953,14 +4947,14 @@
       ],
       "currency": "INR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:41.237177+00:00"
+      "priceObservedAt": "2026-10-10T22:35:45.450098+00:00"
     },
     {
       "code": "iq",
       "name": "Iraq",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/iq/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:40.067082+00:00",
+      "checkedAt": "2026-10-10T22:35:43.742881+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5025,14 +5019,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:41.042260+00:00"
+      "priceObservedAt": "2026-10-10T22:35:44.775036+00:00"
     },
     {
       "code": "is",
       "name": "Iceland",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/is/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:03.050971+00:00",
+      "checkedAt": "2026-10-10T22:36:03.169325+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5097,14 +5091,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:04.187896+00:00"
+      "priceObservedAt": "2026-10-10T22:36:04.739746+00:00"
     },
     {
       "code": "it",
       "name": "Italia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/it/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:03.808400+00:00",
+      "checkedAt": "2026-10-10T22:36:03.879957+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5169,14 +5163,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:04.581088+00:00"
+      "priceObservedAt": "2026-10-10T22:36:04.763194+00:00"
     },
     {
       "code": "jm",
       "name": "Jamaica",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/jm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.576379+00:00",
+      "checkedAt": "2026-10-10T22:36:13.964645+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5241,14 +5235,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:13.340873+00:00"
+      "priceObservedAt": "2026-10-10T22:36:14.924411+00:00"
     },
     {
       "code": "jo",
       "name": "Jordan",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/jo/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:40.506494+00:00",
+      "checkedAt": "2026-10-10T22:35:44.479524+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5313,14 +5307,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:41.763751+00:00"
+      "priceObservedAt": "2026-10-10T22:35:45.481552+00:00"
     },
     {
       "code": "jp",
       "name": "日本",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/jp/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:49.368878+00:00",
+      "checkedAt": "2026-10-10T22:35:53.838945+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5385,14 +5379,14 @@
       ],
       "currency": "JPY",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:49.937977+00:00"
+      "priceObservedAt": "2026-10-10T22:35:54.677770+00:00"
     },
     {
       "code": "ke",
       "name": "Kenya",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ke/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:40.754824+00:00",
+      "checkedAt": "2026-10-10T22:35:44.775082+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5457,14 +5451,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:41.681590+00:00"
+      "priceObservedAt": "2026-10-10T22:35:45.704283+00:00"
     },
     {
       "code": "kg",
       "name": "Kyrgyzstan",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/kg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:49.726307+00:00",
+      "checkedAt": "2026-10-10T22:35:54.339778+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5529,14 +5523,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:51.515453+00:00"
+      "priceObservedAt": "2026-10-10T22:35:55.730802+00:00"
     },
     {
       "code": "kh",
       "name": "Cambodia",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/kh/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:48.479941+00:00",
+      "checkedAt": "2026-10-10T22:35:52.985318+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5601,14 +5595,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:49.368826+00:00"
+      "priceObservedAt": "2026-10-10T22:35:54.149758+00:00"
     },
     {
       "code": "kn",
       "name": "St. Kitts and Nevis",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/kn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:13.762357+00:00",
+      "checkedAt": "2026-10-10T22:36:14.924441+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5673,14 +5667,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:14.576689+00:00"
+      "priceObservedAt": "2026-10-10T22:36:15.889630+00:00"
     },
     {
       "code": "kr",
       "name": "대한민국",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/kr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:49.530399+00:00",
+      "checkedAt": "2026-10-10T22:35:54.149794+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5745,14 +5739,14 @@
       ],
       "currency": "KRW",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:49.908692+00:00"
+      "priceObservedAt": "2026-10-10T22:35:54.775194+00:00"
     },
     {
       "code": "kw",
       "name": "Kuwait",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/kw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:41.042311+00:00",
+      "checkedAt": "2026-10-10T22:35:44.801977+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5817,14 +5811,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:41.909648+00:00"
+      "priceObservedAt": "2026-10-10T22:35:45.663574+00:00"
     },
     {
       "code": "ky",
       "name": "Cayman Islands",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ky/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:10.909141+00:00",
+      "checkedAt": "2026-10-10T22:36:11.339858+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5889,14 +5883,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.045009+00:00"
+      "priceObservedAt": "2026-10-10T22:36:12.500765+00:00"
     },
     {
       "code": "kz",
       "name": "Kazakhstan",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/kz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:49.486365+00:00",
+      "checkedAt": "2026-10-10T22:35:54.122727+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -5961,14 +5955,14 @@
       ],
       "currency": "KZT",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:50.795435+00:00"
+      "priceObservedAt": "2026-10-10T22:35:55.609571+00:00"
     },
     {
       "code": "la",
       "name": "Lao People's Democratic Republic",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/la/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:49.908751+00:00",
+      "checkedAt": "2026-10-10T22:35:54.677820+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6033,14 +6027,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:50.775270+00:00"
+      "priceObservedAt": "2026-10-10T22:35:55.903573+00:00"
     },
     {
       "code": "lb",
       "name": "Lebanon",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/lb/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:41.237231+00:00",
+      "checkedAt": "2026-10-10T22:35:45.450148+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6105,14 +6099,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:42.279838+00:00"
+      "priceObservedAt": "2026-10-10T22:35:46.536502+00:00"
     },
     {
       "code": "lc",
       "name": "Saint Lucia",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/lc/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:13.848846+00:00",
+      "checkedAt": "2026-10-10T22:36:15.265156+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6177,14 +6171,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:14.757394+00:00"
+      "priceObservedAt": "2026-10-10T22:36:16.181515+00:00"
     },
     {
       "code": "lk",
       "name": "Sri Lanka",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/lk/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:45.489339+00:00",
+      "checkedAt": "2026-10-10T22:35:49.661515+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6249,14 +6243,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:46.583936+00:00"
+      "priceObservedAt": "2026-10-10T22:35:50.721865+00:00"
     },
     {
       "code": "lr",
       "name": "Liberia",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/lr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:41.464267+00:00",
+      "checkedAt": "2026-10-10T22:35:45.481583+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6321,14 +6315,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:42.236245+00:00"
+      "priceObservedAt": "2026-10-10T22:35:46.498054+00:00"
     },
     {
       "code": "lt",
       "name": "Lithuania",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/lt/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:04.272285+00:00",
+      "checkedAt": "2026-10-10T22:36:04.739796+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6393,14 +6387,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:05.685086+00:00"
+      "priceObservedAt": "2026-10-10T22:36:06.133711+00:00"
     },
     {
       "code": "lu",
       "name": "Luxembourg (English)",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/lu/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:04.431174+00:00",
+      "checkedAt": "2026-10-10T22:36:04.763245+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6465,14 +6459,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:05.587135+00:00"
+      "priceObservedAt": "2026-10-10T22:36:06.020598+00:00"
     },
     {
       "code": "lv",
       "name": "Latvia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/lv/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:04.187948+00:00",
+      "checkedAt": "2026-10-10T22:36:04.075644+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6537,14 +6531,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:05.437865+00:00"
+      "priceObservedAt": "2026-10-10T22:36:05.487445+00:00"
     },
     {
       "code": "ly",
       "name": "Libya",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ly/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:41.681644+00:00",
+      "checkedAt": "2026-10-10T22:35:45.505212+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6609,14 +6603,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:42.590171+00:00"
+      "priceObservedAt": "2026-10-10T22:35:46.517876+00:00"
     },
     {
       "code": "ma",
       "name": "Morocco",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ma/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:42.755542+00:00",
+      "checkedAt": "2026-10-10T22:35:46.566319+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6681,14 +6675,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:43.604207+00:00"
+      "priceObservedAt": "2026-10-10T22:35:47.468359+00:00"
     },
     {
       "code": "md",
       "name": "Moldova, Republic Of",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/md/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:04.867300+00:00",
+      "checkedAt": "2026-10-10T22:36:05.226995+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6753,14 +6747,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:06.016652+00:00"
+      "priceObservedAt": "2026-10-10T22:36:06.600168+00:00"
     },
     {
       "code": "me",
       "name": "Montenegro",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/me/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:05.437919+00:00",
+      "checkedAt": "2026-10-10T22:36:05.487488+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6825,14 +6819,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:06.475754+00:00"
+      "priceObservedAt": "2026-10-10T22:36:06.886925+00:00"
     },
     {
       "code": "mg",
       "name": "Madagascar",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/mg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:41.763801+00:00",
+      "checkedAt": "2026-10-10T22:35:45.663621+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6897,14 +6891,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:42.783285+00:00"
+      "priceObservedAt": "2026-10-10T22:35:47.060103+00:00"
     },
     {
       "code": "mk",
       "name": "North Macedonia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/mk/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:05.685156+00:00",
+      "checkedAt": "2026-10-10T22:36:06.133757+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -6969,14 +6963,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:06.688626+00:00"
+      "priceObservedAt": "2026-10-10T22:36:07.364267+00:00"
     },
     {
       "code": "ml",
       "name": "Mali",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ml/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:42.236301+00:00",
+      "checkedAt": "2026-10-10T22:35:46.498100+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7041,14 +7035,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:43.108630+00:00"
+      "priceObservedAt": "2026-10-10T22:35:47.493226+00:00"
     },
     {
       "code": "mm",
       "name": "Myanmar",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/mm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:51.049842+00:00",
+      "checkedAt": "2026-10-10T22:35:55.903626+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7113,14 +7107,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:51.933011+00:00"
+      "priceObservedAt": "2026-10-10T22:35:56.995731+00:00"
     },
     {
       "code": "mn",
       "name": "Mongolia",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/mn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:50.795486+00:00",
+      "checkedAt": "2026-10-10T22:35:55.730858+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7185,14 +7179,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:51.698169+00:00"
+      "priceObservedAt": "2026-10-10T22:35:56.634500+00:00"
     },
     {
       "code": "mo",
       "name": "澳門",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/mo/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:49.938032+00:00",
+      "checkedAt": "2026-10-10T22:35:54.754610+00:00",
       "purchases": [],
       "status": "unavailable",
       "httpStatus": 404,
@@ -7203,7 +7197,7 @@
       "name": "Mauritania",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/mr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:42.279890+00:00",
+      "checkedAt": "2026-10-10T22:35:46.517911+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7268,14 +7262,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:43.309235+00:00"
+      "priceObservedAt": "2026-10-10T22:35:47.571467+00:00"
     },
     {
       "code": "ms",
       "name": "Montserrat",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ms/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.966603+00:00",
+      "checkedAt": "2026-10-10T22:36:14.217128+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7340,14 +7334,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:13.762312+00:00"
+      "priceObservedAt": "2026-10-10T22:36:15.285038+00:00"
     },
     {
       "code": "mt",
       "name": "Malta",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/mt/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:04.581154+00:00",
+      "checkedAt": "2026-10-10T22:36:04.914182+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7412,14 +7406,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:05.757080+00:00"
+      "priceObservedAt": "2026-10-10T22:36:06.348200+00:00"
     },
     {
       "code": "mu",
       "name": "Mauritius",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/mu/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:42.590223+00:00",
+      "checkedAt": "2026-10-10T22:35:46.536535+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7484,14 +7478,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:43.473827+00:00"
+      "priceObservedAt": "2026-10-10T22:35:47.556772+00:00"
     },
     {
       "code": "mv",
       "name": "Maldives",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/mv/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:50.179317+00:00",
+      "checkedAt": "2026-10-10T22:35:54.859285+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7556,14 +7550,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:51.049778+00:00"
+      "priceObservedAt": "2026-10-10T22:35:56.029497+00:00"
     },
     {
       "code": "mw",
       "name": "Malawi",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/mw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:41.909707+00:00",
+      "checkedAt": "2026-10-10T22:35:45.704320+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7576,16 +7570,6 @@
           "family": "subscription"
         },
         {
-          "name": "ChatGPT Pro 200",
-          "amount": 200.0,
-          "displayPrice": "USD 200.00",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
           "name": "ChatGPT Plus",
           "amount": 200.0,
           "displayPrice": "USD 200.00",
@@ -7593,6 +7577,16 @@
           "key": "chatgpt-plus-2",
           "ordinal": 2,
           "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 200.0,
+          "displayPrice": "USD 200.00",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
           "family": "subscription"
         },
         {
@@ -7628,14 +7622,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:42.755491+00:00"
+      "priceObservedAt": "2026-10-10T22:35:46.566286+00:00"
     },
     {
       "code": "mx",
       "name": "México",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/mx/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.705886+00:00",
+      "checkedAt": "2026-10-10T22:36:14.122097+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7700,14 +7694,14 @@
       ],
       "currency": "MXN",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:13.737321+00:00"
+      "priceObservedAt": "2026-10-10T22:36:14.908780+00:00"
     },
     {
       "code": "my",
       "name": "Malaysia (English)",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/my/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:50.102497+00:00",
+      "checkedAt": "2026-10-10T22:35:54.775225+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7772,14 +7766,14 @@
       ],
       "currency": "MYR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:51.273112+00:00"
+      "priceObservedAt": "2026-10-10T22:35:56.072074+00:00"
     },
     {
       "code": "mz",
       "name": "Mozambique",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/mz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:42.783335+00:00",
+      "checkedAt": "2026-10-10T22:35:47.060146+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7844,14 +7838,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:43.823468+00:00"
+      "priceObservedAt": "2026-10-10T22:35:48.175062+00:00"
     },
     {
       "code": "na",
       "name": "Namibia",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/na/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:43.108683+00:00",
+      "checkedAt": "2026-10-10T22:35:47.468406+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7916,14 +7910,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:44.094181+00:00"
+      "priceObservedAt": "2026-10-10T22:35:48.484150+00:00"
     },
     {
       "code": "ne",
       "name": "Niger (English)",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ne/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:43.309291+00:00",
+      "checkedAt": "2026-10-10T22:35:47.493257+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -7988,14 +7982,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:44.326464+00:00"
+      "priceObservedAt": "2026-10-10T22:35:48.445195+00:00"
     },
     {
       "code": "ng",
       "name": "Nigeria",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ng/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:43.473880+00:00",
+      "checkedAt": "2026-10-10T22:35:47.556814+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8060,14 +8054,14 @@
       ],
       "currency": "NGN",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:44.533601+00:00"
+      "priceObservedAt": "2026-10-10T22:35:48.664873+00:00"
     },
     {
       "code": "ni",
       "name": "Nicaragua (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ni/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:13.003253+00:00",
+      "checkedAt": "2026-10-10T22:36:14.247421+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8132,14 +8126,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:13.448297+00:00"
+      "priceObservedAt": "2026-10-10T22:36:14.890137+00:00"
     },
     {
       "code": "nl",
       "name": "Nederland",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/nl/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:05.587187+00:00",
+      "checkedAt": "2026-10-10T22:36:06.020643+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8204,14 +8198,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:06.206342+00:00"
+      "priceObservedAt": "2026-10-10T22:36:06.733034+00:00"
     },
     {
       "code": "no",
       "name": "Norway",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/no/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:05.757147+00:00",
+      "checkedAt": "2026-10-10T22:36:06.348250+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8276,14 +8270,14 @@
       ],
       "currency": "NOK",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:07.163623+00:00"
+      "priceObservedAt": "2026-10-10T22:36:07.573554+00:00"
     },
     {
       "code": "np",
       "name": "Nepal",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/np/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:51.515504+00:00",
+      "checkedAt": "2026-10-10T22:35:56.072113+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8348,14 +8342,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:52.375352+00:00"
+      "priceObservedAt": "2026-10-10T22:35:57.017219+00:00"
     },
     {
       "code": "nr",
       "name": "Nauru",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/nr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:51.273163+00:00",
+      "checkedAt": "2026-10-10T22:35:56.029544+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8460,14 +8454,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:52.338752+00:00"
+      "priceObservedAt": "2026-10-10T22:35:57.265232+00:00"
     },
     {
       "code": "nz",
       "name": "New Zealand",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/nz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:51.618014+00:00",
+      "checkedAt": "2026-10-10T22:35:56.634547+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8532,14 +8526,14 @@
       ],
       "currency": "NZD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:52.779058+00:00"
+      "priceObservedAt": "2026-10-10T22:35:57.924831+00:00"
     },
     {
       "code": "om",
       "name": "Oman",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/om/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:43.604264+00:00",
+      "checkedAt": "2026-10-10T22:35:47.571494+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8604,14 +8598,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:44.367366+00:00"
+      "priceObservedAt": "2026-10-10T22:35:48.467841+00:00"
     },
     {
       "code": "pa",
       "name": "Panamá",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/pa/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:13.340936+00:00",
+      "checkedAt": "2026-10-10T22:36:14.432098+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8676,14 +8670,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:13.902174+00:00"
+      "priceObservedAt": "2026-10-10T22:36:15.265104+00:00"
     },
     {
       "code": "pe",
       "name": "Perú",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/pe/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:13.737380+00:00",
+      "checkedAt": "2026-10-10T22:36:14.908814+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8748,14 +8742,14 @@
       ],
       "currency": "PEN",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:14.253947+00:00"
+      "priceObservedAt": "2026-10-10T22:36:15.660572+00:00"
     },
     {
       "code": "pg",
       "name": "Papua New Guinea",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/pg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:52.338801+00:00",
+      "checkedAt": "2026-10-10T22:35:57.017256+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8820,14 +8814,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:53.244532+00:00"
+      "priceObservedAt": "2026-10-10T22:35:58.010138+00:00"
     },
     {
       "code": "ph",
       "name": "Philippines",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/ph/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:52.375406+00:00",
+      "checkedAt": "2026-10-10T22:35:57.265278+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8892,14 +8886,14 @@
       ],
       "currency": "PHP",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:53.202518+00:00"
+      "priceObservedAt": "2026-10-10T22:35:58.263718+00:00"
     },
     {
       "code": "pk",
       "name": "Pakistan",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/pk/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:51.698216+00:00",
+      "checkedAt": "2026-10-10T22:35:56.799843+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -8964,14 +8958,14 @@
       ],
       "currency": "PKR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:52.671541+00:00"
+      "priceObservedAt": "2026-10-10T22:35:57.819216+00:00"
     },
     {
       "code": "pl",
       "name": "Poland",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/pl/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:06.016706+00:00",
+      "checkedAt": "2026-10-10T22:36:06.600215+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9036,14 +9030,14 @@
       ],
       "currency": "PLN",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:07.406773+00:00"
+      "priceObservedAt": "2026-10-10T22:36:07.796801+00:00"
     },
     {
       "code": "pt",
       "name": "Portugal (Português)",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/pt/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:06.206405+00:00",
+      "checkedAt": "2026-10-10T22:36:06.733084+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9118,14 +9112,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:07.442407+00:00"
+      "priceObservedAt": "2026-10-10T22:36:07.630563+00:00"
     },
     {
       "code": "pw",
       "name": "Palau",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/pw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:51.933054+00:00",
+      "checkedAt": "2026-10-10T22:35:56.995783+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9190,14 +9184,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:52.696431+00:00"
+      "priceObservedAt": "2026-10-10T22:35:58.060813+00:00"
     },
     {
       "code": "py",
       "name": "Paraguay (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/py/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:13.448347+00:00",
+      "checkedAt": "2026-10-10T22:36:14.890197+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9262,14 +9256,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:14.058831+00:00"
+      "priceObservedAt": "2026-10-10T22:36:15.603352+00:00"
     },
     {
       "code": "qa",
       "name": "Qatar",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/qa/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:43.823521+00:00",
+      "checkedAt": "2026-10-10T22:35:48.175112+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9282,16 +9276,6 @@
           "family": "subscription"
         },
         {
-          "name": "ChatGPT Pro 200",
-          "amount": 699.99,
-          "displayPrice": "QAR 699.99",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
           "name": "ChatGPT Plus",
           "amount": 699.99,
           "displayPrice": "QAR 699.99",
@@ -9299,6 +9283,16 @@
           "key": "chatgpt-plus-2",
           "ordinal": 2,
           "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 699.99,
+          "displayPrice": "QAR 699.99",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
           "family": "subscription"
         },
         {
@@ -9334,14 +9328,14 @@
       ],
       "currency": "QAR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:44.947844+00:00"
+      "priceObservedAt": "2026-10-10T22:35:49.204426+00:00"
     },
     {
       "code": "ro",
       "name": "Romania",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ro/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:06.475805+00:00",
+      "checkedAt": "2026-10-10T22:36:06.886976+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9406,14 +9400,14 @@
       ],
       "currency": "RON",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:07.608641+00:00"
+      "priceObservedAt": "2026-10-10T22:36:08.125287+00:00"
     },
     {
       "code": "rs",
       "name": "Serbia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/rs/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:06.901329+00:00",
+      "checkedAt": "2026-10-10T22:36:07.471927+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9478,14 +9472,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:08.368496+00:00"
+      "priceObservedAt": "2026-10-10T22:36:08.711007+00:00"
     },
     {
       "code": "ru",
       "name": "Россия",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ru/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:06.688681+00:00",
+      "checkedAt": "2026-10-10T22:36:07.364321+00:00",
       "purchases": [],
       "status": "unavailable",
       "httpStatus": 404,
@@ -9496,7 +9490,7 @@
       "name": "Rwanda",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/rw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:44.326518+00:00",
+      "checkedAt": "2026-10-10T22:35:48.467873+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9561,14 +9555,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:45.125969+00:00"
+      "priceObservedAt": "2026-10-10T22:35:49.593227+00:00"
     },
     {
       "code": "sa",
       "name": "Saudi Arabia",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/sa/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:44.533651+00:00",
+      "checkedAt": "2026-10-10T22:35:48.664926+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9633,14 +9627,14 @@
       ],
       "currency": "SAR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:45.091788+00:00"
+      "priceObservedAt": "2026-10-10T22:35:49.661474+00:00"
     },
     {
       "code": "sb",
       "name": "Solomon Islands",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/sb/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:52.696483+00:00",
+      "checkedAt": "2026-10-10T22:35:57.924885+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9705,14 +9699,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:53.661158+00:00"
+      "priceObservedAt": "2026-10-10T22:35:58.993178+00:00"
     },
     {
       "code": "sc",
       "name": "Seychelles",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/sc/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:45.091840+00:00",
+      "checkedAt": "2026-10-10T22:35:49.390892+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9777,14 +9771,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:45.818345+00:00"
+      "priceObservedAt": "2026-10-10T22:35:50.481908+00:00"
     },
     {
       "code": "se",
       "name": "Sverige",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/se/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:07.608693+00:00",
+      "checkedAt": "2026-10-10T22:36:08.125338+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9849,14 +9843,14 @@
       ],
       "currency": "SEK",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:08.892612+00:00"
+      "priceObservedAt": "2026-10-10T22:36:09.015225+00:00"
     },
     {
       "code": "sg",
       "name": "Singapore",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/sg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:52.671588+00:00",
+      "checkedAt": "2026-10-10T22:35:57.819267+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9921,14 +9915,14 @@
       ],
       "currency": "SGD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:53.559136+00:00"
+      "priceObservedAt": "2026-10-10T22:35:58.973180+00:00"
     },
     {
       "code": "si",
       "name": "Slovenia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/si/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:07.406824+00:00",
+      "checkedAt": "2026-10-10T22:36:07.630622+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -9993,14 +9987,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:09.006947+00:00"
+      "priceObservedAt": "2026-10-10T22:36:09.096758+00:00"
     },
     {
       "code": "sk",
       "name": "Slovakia",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/sk/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:07.163691+00:00",
+      "checkedAt": "2026-10-10T22:36:07.573613+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10065,14 +10059,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:08.315185+00:00"
+      "priceObservedAt": "2026-10-10T22:36:08.902487+00:00"
     },
     {
       "code": "sl",
       "name": "Sierra Leone",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/sl/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:45.126018+00:00",
+      "checkedAt": "2026-10-10T22:35:49.568430+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10137,14 +10131,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:46.025725+00:00"
+      "priceObservedAt": "2026-10-10T22:35:50.456071+00:00"
     },
     {
       "code": "sn",
       "name": "Senegal",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/sn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:44.947893+00:00",
+      "checkedAt": "2026-10-10T22:35:49.204473+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10209,14 +10203,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:46.141057+00:00"
+      "priceObservedAt": "2026-10-10T22:35:50.384341+00:00"
     },
     {
       "code": "sr",
       "name": "Suriname",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/sr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:14.058883+00:00",
+      "checkedAt": "2026-10-10T22:36:15.603404+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10281,14 +10275,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:14.831318+00:00"
+      "priceObservedAt": "2026-10-10T22:36:16.531307+00:00"
     },
     {
       "code": "st",
       "name": "São Tomé and Príncipe",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/st/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:44.367419+00:00",
+      "checkedAt": "2026-10-10T22:35:48.484193+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10353,14 +10347,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:45.266274+00:00"
+      "priceObservedAt": "2026-10-10T22:35:49.390840+00:00"
     },
     {
       "code": "sv",
       "name": "El Salvador (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/sv/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:12.045067+00:00",
+      "checkedAt": "2026-10-10T22:36:12.878956+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10425,14 +10419,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:12.576321+00:00"
+      "priceObservedAt": "2026-10-10T22:36:13.591615+00:00"
     },
     {
       "code": "sz",
       "name": "Eswatini",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/sz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:39.052769+00:00",
+      "checkedAt": "2026-10-10T22:35:42.560931+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10497,14 +10491,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:40.067029+00:00"
+      "priceObservedAt": "2026-10-10T22:35:43.728712+00:00"
     },
     {
       "code": "tc",
       "name": "Turks and Caicos",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/tc/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:14.576751+00:00",
+      "checkedAt": "2026-10-10T22:36:15.889682+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10569,14 +10563,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:15.392608+00:00"
+      "priceObservedAt": "2026-10-10T22:36:16.956097+00:00"
     },
     {
       "code": "td",
       "name": "Chad",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/td/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:38.425294+00:00",
+      "checkedAt": "2026-10-10T22:35:42.139923+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10641,14 +10635,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:39.468274+00:00"
+      "priceObservedAt": "2026-10-10T22:35:42.993038+00:00"
     },
     {
       "code": "th",
       "name": "Thailand",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/th/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:53.202568+00:00",
+      "checkedAt": "2026-10-10T22:35:58.060852+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10713,14 +10707,14 @@
       ],
       "currency": "THB",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:54.278832+00:00"
+      "priceObservedAt": "2026-10-10T22:35:59.303146+00:00"
     },
     {
       "code": "tj",
       "name": "Tajikistan",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/tj/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:45.818396+00:00",
+      "checkedAt": "2026-10-10T22:35:50.384392+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10785,14 +10779,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:47.320535+00:00"
+      "priceObservedAt": "2026-10-10T22:35:51.723317+00:00"
     },
     {
       "code": "tm",
       "name": "Turkmenistan",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/tm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:46.295262+00:00",
+      "checkedAt": "2026-10-10T22:35:50.674313+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10857,14 +10851,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:47.619914+00:00"
+      "priceObservedAt": "2026-10-10T22:35:51.933316+00:00"
     },
     {
       "code": "tn",
       "name": "Tunisia",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/tn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:46.141123+00:00",
+      "checkedAt": "2026-10-10T22:35:50.481950+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -10929,14 +10923,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:47.247084+00:00"
+      "priceObservedAt": "2026-10-10T22:35:51.705136+00:00"
     },
     {
       "code": "to",
       "name": "Tonga",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/to/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:53.244585+00:00",
+      "checkedAt": "2026-10-10T22:35:58.263760+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11001,14 +10995,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:54.156359+00:00"
+      "priceObservedAt": "2026-10-10T22:35:59.317486+00:00"
     },
     {
       "code": "tr",
       "name": "Türkiye (English)",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/tr/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:08.315242+00:00",
+      "checkedAt": "2026-10-10T22:36:08.711056+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11073,14 +11067,14 @@
       ],
       "currency": "TRY",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:09.221009+00:00"
+      "priceObservedAt": "2026-10-10T22:36:09.876552+00:00"
     },
     {
       "code": "tt",
       "name": "Trinidad and Tobago",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/tt/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:14.253999+00:00",
+      "checkedAt": "2026-10-10T22:36:15.660617+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11145,14 +11139,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:15.044914+00:00"
+      "priceObservedAt": "2026-10-10T22:36:16.719274+00:00"
     },
     {
       "code": "tw",
       "name": "台灣",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/tw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:52.779124+00:00",
+      "checkedAt": "2026-10-10T22:35:58.010195+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11217,14 +11211,14 @@
       ],
       "currency": "TWD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:53.258871+00:00"
+      "priceObservedAt": "2026-10-10T22:35:58.580761+00:00"
     },
     {
       "code": "tz",
       "name": "Tanzania, United Republic Of",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/tz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:46.025774+00:00",
+      "checkedAt": "2026-10-10T22:35:50.456122+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11289,14 +11283,14 @@
       ],
       "currency": "TZS",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:47.220341+00:00"
+      "priceObservedAt": "2026-10-10T22:35:51.492278+00:00"
     },
     {
       "code": "ua",
       "name": "Ukraine",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/ua/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:08.368562+00:00",
+      "checkedAt": "2026-10-10T22:36:08.902536+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11361,14 +11355,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:09.863073+00:00"
+      "priceObservedAt": "2026-10-10T22:36:10.210753+00:00"
     },
     {
       "code": "ug",
       "name": "Uganda",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ug/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:47.220382+00:00",
+      "checkedAt": "2026-10-10T22:35:51.492330+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11381,16 +11375,6 @@
           "family": "subscription"
         },
         {
-          "name": "ChatGPT Pro 200",
-          "amount": 250.0,
-          "displayPrice": "USD 250.00",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
           "name": "ChatGPT Plus",
           "amount": 250.0,
           "displayPrice": "USD 250.00",
@@ -11398,6 +11382,16 @@
           "key": "chatgpt-plus-2",
           "ordinal": 2,
           "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 250.0,
+          "displayPrice": "USD 250.00",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
           "family": "subscription"
         },
         {
@@ -11433,14 +11427,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:48.177054+00:00"
+      "priceObservedAt": "2026-10-10T22:35:52.525184+00:00"
     },
     {
       "code": "us",
       "name": "United States",
       "region": "The United States and Canada",
       "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:14.988519+00:00",
+      "checkedAt": "2026-10-10T22:36:16.531354+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11535,14 +11529,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:15.179750+00:00"
+      "priceObservedAt": "2026-10-10T22:36:16.972808+00:00"
     },
     {
       "code": "uy",
       "name": "Uruguay (English)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/uy/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:14.757446+00:00",
+      "checkedAt": "2026-10-10T22:36:16.181568+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11607,14 +11601,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:16.002716+00:00"
+      "priceObservedAt": "2026-10-10T22:36:17.381102+00:00"
     },
     {
       "code": "uz",
       "name": "Uzbekistan",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/uz/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:53.258913+00:00",
+      "checkedAt": "2026-10-10T22:35:58.580807+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11679,14 +11673,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:54.568925+00:00"
+      "priceObservedAt": "2026-10-10T22:35:59.813846+00:00"
     },
     {
       "code": "vc",
       "name": "St. Vincent and The Grenadines",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/vc/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:13.902229+00:00",
+      "checkedAt": "2026-10-10T22:36:15.285073+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11751,14 +11745,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:14.861599+00:00"
+      "priceObservedAt": "2026-10-10T22:36:16.364660+00:00"
     },
     {
       "code": "ve",
       "name": "Venezuela (Español)",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/ve/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:14.831373+00:00",
+      "checkedAt": "2026-10-10T22:36:16.364705+00:00",
       "purchases": [],
       "status": "unavailable",
       "httpStatus": 404,
@@ -11769,7 +11763,7 @@
       "name": "Virgin Islands, British",
       "region": "Latin America and the Caribbean",
       "sourceUrl": "https://apps.apple.com/vg/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:10.738575+00:00",
+      "checkedAt": "2026-10-10T22:36:11.319945+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11834,14 +11828,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:11.636181+00:00"
+      "priceObservedAt": "2026-10-10T22:36:12.248029+00:00"
     },
     {
       "code": "vn",
       "name": "Vietnam",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/vn/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:53.661213+00:00",
+      "checkedAt": "2026-10-10T22:35:58.993209+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11906,14 +11900,14 @@
       ],
       "currency": "VND",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:54.696573+00:00"
+      "priceObservedAt": "2026-10-10T22:36:00.165904+00:00"
     },
     {
       "code": "vu",
       "name": "Vanuatu",
       "region": "Asia Pacific",
       "sourceUrl": "https://apps.apple.com/vu/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:53.559183+00:00",
+      "checkedAt": "2026-10-10T22:35:58.973230+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -11978,14 +11972,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:54.713918+00:00"
+      "priceObservedAt": "2026-10-10T22:36:00.044836+00:00"
     },
     {
       "code": "xk",
       "name": "Kosovo",
       "region": "Europe",
       "sourceUrl": "https://apps.apple.com/xk/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:39:03.827706+00:00",
+      "checkedAt": "2026-10-10T22:36:03.980595+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -12050,14 +12044,14 @@
       ],
       "currency": "EUR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:39:04.867243+00:00"
+      "priceObservedAt": "2026-10-10T22:36:05.226941+00:00"
     },
     {
       "code": "ye",
       "name": "Yemen",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/ye/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:47.247147+00:00",
+      "checkedAt": "2026-10-10T22:35:51.705188+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -12122,14 +12116,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:48.437575+00:00"
+      "priceObservedAt": "2026-10-10T22:35:52.711458+00:00"
     },
     {
       "code": "za",
       "name": "South Africa",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/za/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:45.266322+00:00",
+      "checkedAt": "2026-10-10T22:35:49.593258+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -12142,16 +12136,6 @@
           "family": "subscription"
         },
         {
-          "name": "ChatGPT Pro 200",
-          "amount": 3999.99,
-          "displayPrice": "R3,999.99",
-          "period": null,
-          "key": "chatgpt-pro-200-1",
-          "ordinal": 1,
-          "sameNameCount": 1,
-          "family": "subscription"
-        },
-        {
           "name": "ChatGPT Plus",
           "amount": 3999.99,
           "displayPrice": "R3,999.99",
@@ -12159,6 +12143,16 @@
           "key": "chatgpt-plus-2",
           "ordinal": 2,
           "sameNameCount": 2,
+          "family": "subscription"
+        },
+        {
+          "name": "ChatGPT Pro 200",
+          "amount": 3999.99,
+          "displayPrice": "R3,999.99",
+          "period": null,
+          "key": "chatgpt-pro-200-1",
+          "ordinal": 1,
+          "sameNameCount": 1,
           "family": "subscription"
         },
         {
@@ -12194,14 +12188,14 @@
       ],
       "currency": "ZAR",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:46.295211+00:00"
+      "priceObservedAt": "2026-10-10T22:35:50.674266+00:00"
     },
     {
       "code": "zm",
       "name": "Zambia",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/zm/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:47.321154+00:00",
+      "checkedAt": "2026-10-10T22:35:51.723788+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -12266,14 +12260,14 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:48.647591+00:00"
+      "priceObservedAt": "2026-10-10T22:35:52.672125+00:00"
     },
     {
       "code": "zw",
       "name": "Zimbabwe",
       "region": "Africa, Middle East, and India",
       "sourceUrl": "https://apps.apple.com/zw/app/chatgpt/id6448311069?l=en-GB",
-      "checkedAt": "2026-10-10T18:38:47.424240+00:00",
+      "checkedAt": "2026-10-10T22:35:51.786507+00:00",
       "purchases": [
         {
           "name": "ChatGPT Pro 500",
@@ -12338,7 +12332,7 @@
       ],
       "currency": "USD",
       "status": "available",
-      "priceObservedAt": "2026-10-10T18:38:48.217802+00:00"
+      "priceObservedAt": "2026-10-10T22:35:52.985266+00:00"
     }
   ]
 }
