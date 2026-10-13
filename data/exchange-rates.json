@@ -3,45 +3,45 @@
   "rates": {
     "USD": 1,
     "CLP": 975.06,
-    "COP": 3194.49,
-    "BRL": 4.9863,
-    "AUD": 1.4376,
-    "CAD": 1.4282,
-    "CHF": 0.8343,
-    "CNY": 6.6918,
-    "DKK": 6.7001,
-    "EGP": 52.6,
-    "CZK": 21.834,
-    "HUF": 326.901,
-    "EUR": 0.8961,
-    "AED": 3.6726,
-    "GBP": 0.7571,
-    "ILS": 3.0754,
-    "INR": 95.76,
-    "KZT": 451.65,
-    "KRW": 1335.78,
-    "JPY": 158.424,
-    "IDR": 17894.0,
-    "NOK": 9.5747,
-    "NZD": 1.7907,
-    "MXN": 18.269,
-    "PHP": 62.721,
-    "PKR": 276.69,
-    "MYR": 4.085,
-    "PEN": 3.4431,
-    "PLN": 3.9304,
-    "RON": 4.7828,
-    "SAR": 3.7555,
-    "SEK": 10.0376,
-    "TRY": 49.3393,
+    "BRL": 4.9847,
+    "AUD": 1.4349,
+    "CNY": 6.6935,
+    "COP": 3196.83,
+    "AED": 3.673,
+    "CAD": 1.4261,
+    "CZK": 21.757,
+    "EUR": 0.8932,
+    "EGP": 52.74,
+    "GBP": 0.7556,
+    "HUF": 325.53,
+    "IDR": 17900.0,
+    "DKK": 6.6785,
+    "ILS": 3.0791,
+    "INR": 95.22,
+    "JPY": 158.198,
+    "KRW": 1342.78,
+    "MYR": 4.084,
+    "MXN": 18.2223,
+    "KZT": 449.62,
     "NGN": 1322.87,
+    "NOK": 9.5534,
+    "NZD": 1.7845,
+    "PEN": 3.4482,
+    "PHP": 62.762,
     "QAR": 3.64,
-    "TWD": 31.947,
-    "SGD": 1.2808,
+    "PKR": 276.802,
+    "RON": 4.7632,
+    "PLN": 3.9159,
+    "SGD": 1.2801,
+    "SAR": 3.7555,
+    "SEK": 10.0004,
+    "VND": 25934.0,
+    "THB": 33.51,
+    "TRY": 49.3628,
     "TZS": 2624.0,
-    "THB": 33.61,
-    "ZAR": 16.5548,
-    "VND": 25934.0
+    "TWD": 32.149,
+    "ZAR": 16.4774,
+    "CHF": 0.8343
   },
   "quotes": {
     "CLP": {
@@ -52,336 +52,340 @@
       "sourceUrl": "https://finance.yahoo.com/quote/CLP%3DX/",
       "retained": false
     },
-    "COP": {
-      "rate": 3194.49,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
-      "delayed": true,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/COP%3DX/",
-      "retained": false
-    },
     "BRL": {
-      "rate": 4.9863,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
+      "rate": 4.9847,
+      "quotedAt": "2026-10-13T06:30:07+00:00",
       "delayed": true,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/BRL%3DX/",
       "retained": false
     },
     "AUD": {
-      "rate": 1.4376,
-      "quotedAt": "2026-10-13T00:43:28+00:00",
+      "rate": 1.4349,
+      "quotedAt": "2026-10-13T07:45:27+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/AUD%3DX/",
       "retained": false
     },
-    "CAD": {
-      "rate": 1.4282,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/CAD%3DX/",
-      "retained": false
-    },
-    "CHF": {
-      "rate": 0.8343,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/CHF%3DX/",
-      "retained": false
-    },
     "CNY": {
-      "rate": 6.6918,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
-      "delayed": true,
+      "rate": 6.6935,
+      "quotedAt": "2026-10-13T07:45:51+00:00",
+      "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/CNY%3DX/",
       "retained": false
     },
-    "DKK": {
-      "rate": 6.7001,
-      "quotedAt": "2026-10-13T00:44:20+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/DKK%3DX/",
-      "retained": false
-    },
-    "EGP": {
-      "rate": 52.6,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
+    "COP": {
+      "rate": 3196.83,
+      "quotedAt": "2026-10-13T07:00:00+00:00",
       "delayed": true,
       "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/EGP%3DX/",
-      "retained": false
-    },
-    "CZK": {
-      "rate": 21.834,
-      "quotedAt": "2026-10-13T00:44:20+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/CZK%3DX/",
-      "retained": false
-    },
-    "HUF": {
-      "rate": 326.901,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/HUF%3DX/",
-      "retained": false
-    },
-    "EUR": {
-      "rate": 0.8961,
-      "quotedAt": "2026-10-13T00:43:28+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/EUR%3DX/",
+      "sourceUrl": "https://finance.yahoo.com/quote/COP%3DX/",
       "retained": false
     },
     "AED": {
-      "rate": 3.6726,
-      "quotedAt": "2026-10-13T00:44:20+00:00",
+      "rate": 3.673,
+      "quotedAt": "2026-10-13T07:46:02+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/AED%3DX/",
       "retained": false
     },
+    "CAD": {
+      "rate": 1.4261,
+      "quotedAt": "2026-10-13T07:46:02+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/CAD%3DX/",
+      "retained": false
+    },
+    "CZK": {
+      "rate": 21.757,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/CZK%3DX/",
+      "retained": false
+    },
+    "EUR": {
+      "rate": 0.8932,
+      "quotedAt": "2026-10-13T07:45:27+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/EUR%3DX/",
+      "retained": false
+    },
+    "EGP": {
+      "rate": 52.74,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/EGP%3DX/",
+      "retained": false
+    },
     "GBP": {
-      "rate": 0.7571,
-      "quotedAt": "2026-10-13T00:43:28+00:00",
+      "rate": 0.7556,
+      "quotedAt": "2026-10-13T07:45:27+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/GBP%3DX/",
       "retained": false
     },
+    "HUF": {
+      "rate": 325.53,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/HUF%3DX/",
+      "retained": false
+    },
+    "IDR": {
+      "rate": 17900.0,
+      "quotedAt": "2026-10-13T07:24:03+00:00",
+      "delayed": true,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/IDR%3DX/",
+      "retained": false
+    },
+    "DKK": {
+      "rate": 6.6785,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/DKK%3DX/",
+      "retained": false
+    },
     "ILS": {
-      "rate": 3.0754,
-      "quotedAt": "2026-10-13T00:44:20+00:00",
+      "rate": 3.0791,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/ILS%3DX/",
       "retained": false
     },
     "INR": {
-      "rate": 95.76,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
-      "delayed": true,
+      "rate": 95.22,
+      "quotedAt": "2026-10-13T07:46:01+00:00",
+      "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/INR%3DX/",
       "retained": false
     },
-    "KZT": {
-      "rate": 451.65,
-      "quotedAt": "2026-10-13T00:44:20+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/KZT%3DX/",
-      "retained": false
-    },
-    "KRW": {
-      "rate": 1335.78,
-      "quotedAt": "2026-10-13T00:44:20+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/KRW%3DX/",
-      "retained": false
-    },
     "JPY": {
-      "rate": 158.424,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
+      "rate": 158.198,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/JPY%3DX/",
       "retained": false
     },
-    "IDR": {
-      "rate": 17894.0,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
+    "KRW": {
+      "rate": 1342.78,
+      "quotedAt": "2026-10-13T07:46:02+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/KRW%3DX/",
+      "retained": false
+    },
+    "MYR": {
+      "rate": 4.084,
+      "quotedAt": "2026-10-13T07:44:31+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/MYR%3DX/",
+      "retained": false
+    },
+    "MXN": {
+      "rate": 18.2223,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/MXN%3DX/",
+      "retained": false
+    },
+    "KZT": {
+      "rate": 449.62,
+      "quotedAt": "2026-10-13T07:45:58+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/KZT%3DX/",
+      "retained": false
+    },
+    "NGN": {
+      "rate": 1322.87,
+      "quotedAt": "2026-10-13T02:26:37+00:00",
       "delayed": true,
       "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/IDR%3DX/",
+      "sourceUrl": "https://finance.yahoo.com/quote/NGN%3DX/",
       "retained": false
     },
     "NOK": {
-      "rate": 9.5747,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
+      "rate": 9.5534,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/NOK%3DX/",
       "retained": false
     },
     "NZD": {
-      "rate": 1.7907,
-      "quotedAt": "2026-10-13T00:43:28+00:00",
+      "rate": 1.7845,
+      "quotedAt": "2026-10-13T07:45:27+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/NZD%3DX/",
       "retained": false
     },
-    "MXN": {
-      "rate": 18.269,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/MXN%3DX/",
-      "retained": false
-    },
-    "PHP": {
-      "rate": 62.721,
-      "quotedAt": "2026-10-12T21:05:57+00:00",
-      "delayed": true,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/PHP%3DX/",
-      "retained": false
-    },
-    "PKR": {
-      "rate": 276.69,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
-      "delayed": true,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/PKR%3DX/",
-      "retained": false
-    },
-    "MYR": {
-      "rate": 4.085,
-      "quotedAt": "2026-10-13T00:17:15+00:00",
-      "delayed": true,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/MYR%3DX/",
-      "retained": false
-    },
     "PEN": {
-      "rate": 3.4431,
-      "quotedAt": "2026-10-13T00:39:45+00:00",
+      "rate": 3.4482,
+      "quotedAt": "2026-10-13T07:44:21+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/PEN%3DX/",
       "retained": false
     },
-    "PLN": {
-      "rate": 3.9304,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
+    "PHP": {
+      "rate": 62.762,
+      "quotedAt": "2026-10-13T07:45:45+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/PLN%3DX/",
-      "retained": false
-    },
-    "RON": {
-      "rate": 4.7828,
-      "quotedAt": "2026-10-13T00:43:51+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/RON%3DX/",
-      "retained": false
-    },
-    "SAR": {
-      "rate": 3.7555,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/SAR%3DX/",
-      "retained": false
-    },
-    "SEK": {
-      "rate": 10.0376,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/SEK%3DX/",
-      "retained": false
-    },
-    "TRY": {
-      "rate": 49.3393,
-      "quotedAt": "2026-10-13T00:44:21+00:00",
-      "delayed": false,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/TRY%3DX/",
-      "retained": false
-    },
-    "NGN": {
-      "rate": 1322.87,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
-      "delayed": true,
-      "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/NGN%3DX/",
+      "sourceUrl": "https://finance.yahoo.com/quote/PHP%3DX/",
       "retained": false
     },
     "QAR": {
       "rate": 3.64,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
+      "quotedAt": "2026-10-13T02:26:37+00:00",
       "delayed": true,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/QAR%3DX/",
       "retained": false
     },
-    "TWD": {
-      "rate": 31.947,
-      "quotedAt": "2026-10-13T00:44:20+00:00",
+    "PKR": {
+      "rate": 276.802,
+      "quotedAt": "2026-10-13T07:24:08+00:00",
+      "delayed": true,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/PKR%3DX/",
+      "retained": false
+    },
+    "RON": {
+      "rate": 4.7632,
+      "quotedAt": "2026-10-13T07:46:01+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/TWD%3DX/",
+      "sourceUrl": "https://finance.yahoo.com/quote/RON%3DX/",
+      "retained": false
+    },
+    "PLN": {
+      "rate": 3.9159,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/PLN%3DX/",
       "retained": false
     },
     "SGD": {
-      "rate": 1.2808,
-      "quotedAt": "2026-10-13T00:44:22+00:00",
+      "rate": 1.2801,
+      "quotedAt": "2026-10-13T07:46:04+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/SGD%3DX/",
       "retained": false
     },
-    "TZS": {
-      "rate": 2624.0,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
+    "SAR": {
+      "rate": 3.7555,
+      "quotedAt": "2026-10-13T05:39:43+00:00",
       "delayed": true,
       "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/TZS%3DX/",
+      "sourceUrl": "https://finance.yahoo.com/quote/SAR%3DX/",
+      "retained": false
+    },
+    "SEK": {
+      "rate": 10.0004,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/SEK%3DX/",
+      "retained": false
+    },
+    "VND": {
+      "rate": 25934.0,
+      "quotedAt": "2026-10-13T02:26:37+00:00",
+      "delayed": true,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/VND%3DX/",
       "retained": false
     },
     "THB": {
-      "rate": 33.61,
-      "quotedAt": "2026-10-13T00:44:14+00:00",
+      "rate": 33.51,
+      "quotedAt": "2026-10-13T07:46:00+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/THB%3DX/",
       "retained": false
     },
+    "TRY": {
+      "rate": 49.3628,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/TRY%3DX/",
+      "retained": false
+    },
+    "TZS": {
+      "rate": 2624.0,
+      "quotedAt": "2026-10-13T06:54:24+00:00",
+      "delayed": true,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/TZS%3DX/",
+      "retained": false
+    },
+    "TWD": {
+      "rate": 32.149,
+      "quotedAt": "2026-10-13T07:46:03+00:00",
+      "delayed": false,
+      "provider": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/TWD%3DX/",
+      "retained": false
+    },
     "ZAR": {
-      "rate": 16.5548,
-      "quotedAt": "2026-10-13T00:44:22+00:00",
+      "rate": 16.4774,
+      "quotedAt": "2026-10-13T07:46:04+00:00",
       "delayed": false,
       "provider": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/ZAR%3DX/",
       "retained": false
     },
-    "VND": {
-      "rate": 25934.0,
-      "quotedAt": "2026-10-13T00:13:01+00:00",
+    "CHF": {
+      "rate": 0.8343,
+      "quotedAt": "2026-10-13T00:44:21+00:00",
       "delayed": true,
       "provider": "Yahoo Finance",
-      "sourceUrl": "https://finance.yahoo.com/quote/VND%3DX/",
-      "retained": false
+      "sourceUrl": "https://finance.yahoo.com/quote/CHF%3DX/",
+      "retained": true
     }
   },
-  "errors": {},
+  "errors": {
+    "CHF": "ValueError: 行情暂不可用"
+  },
   "provider": "Yahoo Finance",
   "providerUrl": "https://finance.yahoo.com/currencies/",
-  "usdtUsd": 0.99897,
+  "usdtUsd": 0.9988,
   "usdtQuote": {
-    "rate": 0.99897,
-    "quotedAt": "2026-10-13T00:42:38.064000+00:00",
+    "rate": 0.9988,
+    "quotedAt": "2026-10-13T07:45:31.687000+00:00",
     "delayed": false,
     "provider": "Binance.US",
     "sourceUrl": "https://api.binance.us/api/v3/trades?symbol=USDTUSD&limit=1",
     "symbol": "USDTUSD",
     "retained": false
   },
-  "fetchedAt": "2026-10-13T00:44:23.116940+00:00",
+  "fetchedAt": "2026-10-13T07:46:05.424193+00:00",
   "cache": {
     "status": "cached",
-    "savedAt": "2026-10-13T00:44:23.117033+00:00",
-    "retained": []
+    "savedAt": "2026-10-13T07:46:05.424205+00:00",
+    "retained": [
+      "CHF"
+    ]
   }
 }
